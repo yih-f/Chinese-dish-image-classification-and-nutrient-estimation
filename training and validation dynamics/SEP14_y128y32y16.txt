@@ -1,0 +1,142 @@
+2024-09-14 20:48:34.616982: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+epoch=1,training iter=66/668=9.88%,device=cuda,elapsed_time=221.93093872070312
+epoch=1,training iter=132/668=19.76%,device=cuda,elapsed_time=438.214200258255
+epoch=1,training iter=198/668=29.64%,device=cuda,elapsed_time=654.6049158573151
+epoch=1,training iter=264/668=39.52%,device=cuda,elapsed_time=871.5552945137024
+epoch=1,training iter=330/668=49.4%,device=cuda,elapsed_time=1088.37038397789
+epoch=1,training iter=396/668=59.28%,device=cuda,elapsed_time=1305.0280165672302
+epoch=1,training iter=462/668=69.16%,device=cuda,elapsed_time=1522.1647996902466
+epoch=1,training iter=528/668=79.04%,device=cuda,elapsed_time=1739.269461631775
+epoch=1,training iter=594/668=88.92%,device=cuda,elapsed_time=1956.1581981182098
+epoch=1,training iter=660/668=98.8%,device=cuda,elapsed_time=2172.8918051719666
+epoch=1,validating iter=28/82=34.15%,device=cuda,elapsed_time=2289.750300884247
+epoch=1,validating iter=56/82=68.29%,device=cuda,elapsed_time=2372.3315999507904
+End of epoch1,val_accuracy=0.8636059652014476,lr=0.001,train_accuracy=0.5964479983566764,train_loss=167.59440560112458,val_loss:0.5908857067910637,val_acc_top5=0.9850306442942146,train_acc_top5=0.8711171407185628,device=cuda,elapsed_time=2448.9341008663177
+SEP14_y128y32y16_best saved after epoch1 with val_acc = 0.8636059652014476 and val_loss=0.5908857067910637
+epoch=2,training iter=66/668=9.88%,device=cuda,elapsed_time=2678.2063031196594
+epoch=2,training iter=132/668=19.76%,device=cuda,elapsed_time=2895.1177971363068
+epoch=2,training iter=198/668=29.64%,device=cuda,elapsed_time=3112.7042760849
+epoch=2,training iter=264/668=39.52%,device=cuda,elapsed_time=3329.887185573578
+epoch=2,training iter=330/668=49.4%,device=cuda,elapsed_time=3547.169439792633
+epoch=2,training iter=396/668=59.28%,device=cuda,elapsed_time=3764.4583010673523
+epoch=2,training iter=462/668=69.16%,device=cuda,elapsed_time=3981.809985637665
+epoch=2,training iter=528/668=79.04%,device=cuda,elapsed_time=4199.06468296051
+epoch=2,training iter=594/668=88.92%,device=cuda,elapsed_time=4416.444320440292
+epoch=2,training iter=660/668=98.8%,device=cuda,elapsed_time=4634.125419378281
+epoch=2,validating iter=28/82=34.15%,device=cuda,elapsed_time=4750.800529956818
+epoch=2,validating iter=56/82=68.29%,device=cuda,elapsed_time=4833.499858379364
+End of epoch2,val_accuracy=0.8627121346752818,lr=0.001,train_accuracy=0.5823327079861463,train_loss=172.30220646986703,val_loss:0.6006798511598168,val_acc_top5=0.9848400955137269,train_acc_top5=0.864005152410696,device=cuda,elapsed_time=4910.141841173172
+SEP14_y128y32y16_relay saved after epoch2 with other model best_val_acc = 0.8636059652014476 and best_val_loss=0.5908857067910637
+epoch=3,training iter=66/668=9.88%,device=cuda,elapsed_time=5137.879208564758
+epoch=3,training iter=132/668=19.76%,device=cuda,elapsed_time=5355.212886095047
+epoch=3,training iter=198/668=29.64%,device=cuda,elapsed_time=5572.655403375626
+epoch=3,training iter=264/668=39.52%,device=cuda,elapsed_time=5790.195430278778
+epoch=3,training iter=330/668=49.4%,device=cuda,elapsed_time=6007.537735700607
+epoch=3,training iter=396/668=59.28%,device=cuda,elapsed_time=6224.941979885101
+epoch=3,training iter=462/668=69.16%,device=cuda,elapsed_time=6442.60742855072
+epoch=3,training iter=528/668=79.04%,device=cuda,elapsed_time=6660.16322851181
+epoch=3,training iter=594/668=88.92%,device=cuda,elapsed_time=6877.957632780075
+epoch=3,training iter=660/668=98.8%,device=cuda,elapsed_time=7095.884780406952
+epoch=3,validating iter=28/82=34.15%,device=cuda,elapsed_time=7212.941886663437
+epoch=3,validating iter=56/82=68.29%,device=cuda,elapsed_time=7295.666175127029
+End of epoch3,val_accuracy=0.8633677792258379,lr=0.001,train_accuracy=0.5995254910433899,train_loss=160.34965067637896,val_loss:0.5738387113300766,val_acc_top5=0.9847448211234829,train_acc_top5=0.8669134656333884,device=cuda,elapsed_time=7372.266786575317
+SEP14_y128y32y16_best saved after epoch3 with val_acc = 0.8633677792258379 and val_loss=0.5738387113300766
+epoch=4,training iter=66/668=9.88%,device=cuda,elapsed_time=7600.3063015937805
+epoch=4,training iter=132/668=19.76%,device=cuda,elapsed_time=7817.654844522476
+epoch=4,training iter=198/668=29.64%,device=cuda,elapsed_time=8034.566276311874
+epoch=4,training iter=264/668=39.52%,device=cuda,elapsed_time=8251.227399587631
+epoch=4,training iter=330/668=49.4%,device=cuda,elapsed_time=8467.981187582016
+epoch=4,training iter=396/668=59.28%,device=cuda,elapsed_time=8684.9898519516
+epoch=4,training iter=462/668=69.16%,device=cuda,elapsed_time=8902.1376247406
+epoch=4,training iter=528/668=79.04%,device=cuda,elapsed_time=9119.178037643433
+epoch=4,training iter=594/668=88.92%,device=cuda,elapsed_time=9336.355375766754
+epoch=4,training iter=660/668=98.8%,device=cuda,elapsed_time=9553.462215185165
+epoch=4,validating iter=28/82=34.15%,device=cuda,elapsed_time=9670.233452558517
+epoch=4,validating iter=56/82=68.29%,device=cuda,elapsed_time=9753.179438114166
+End of epoch4,val_accuracy=0.8627961328843745,lr=0.001,train_accuracy=0.5687275771609324,train_loss=165.84473754831416,val_loss:0.6000208563920928,val_acc_top5=0.9846019095381171,train_acc_top5=0.8522829744605616,device=cuda,elapsed_time=9829.858120203018
+SEP14_y128y32y16_relay saved after epoch4 with other model best_val_acc = 0.8633677792258379 and best_val_loss=0.5738387113300766
+epoch=5,training iter=66/668=9.88%,device=cuda,elapsed_time=10057.595819473267
+epoch=5,training iter=132/668=19.76%,device=cuda,elapsed_time=10275.427894830704
+epoch=5,training iter=198/668=29.64%,device=cuda,elapsed_time=10492.85083413124
+epoch=5,training iter=264/668=39.52%,device=cuda,elapsed_time=10710.922499895096
+epoch=5,training iter=330/668=49.4%,device=cuda,elapsed_time=10928.914647579193
+epoch=5,training iter=396/668=59.28%,device=cuda,elapsed_time=11146.593909740448
+epoch=5,training iter=462/668=69.16%,device=cuda,elapsed_time=11364.32234787941
+epoch=5,training iter=528/668=79.04%,device=cuda,elapsed_time=11581.801919460297
+epoch=5,training iter=594/668=88.92%,device=cuda,elapsed_time=11799.525416612625
+epoch=5,training iter=660/668=98.8%,device=cuda,elapsed_time=12017.399233818054
+epoch=5,validating iter=28/82=34.15%,device=cuda,elapsed_time=12133.809797048569
+epoch=5,validating iter=56/82=68.29%,device=cuda,elapsed_time=12216.739637613297
+End of epoch5,val_accuracy=0.8624852256077092,lr=0.001,train_accuracy=0.5950094691650596,train_loss=166.88666890052977,val_loss:0.6278451724750239,val_acc_top5=0.9844113607576293,train_acc_top5=0.8679944797904192,device=cuda,elapsed_time=12293.40688753128
+SEP14_y128y32y16_relay saved after epoch5 with other model best_val_acc = 0.8633677792258379 and best_val_loss=0.5738387113300766
+epoch=6,training iter=66/668=9.88%,device=cuda,elapsed_time=12518.124017715454
+epoch=6,training iter=132/668=19.76%,device=cuda,elapsed_time=12735.705075502396
+epoch=6,training iter=198/668=29.64%,device=cuda,elapsed_time=12952.826235055923
+epoch=6,training iter=264/668=39.52%,device=cuda,elapsed_time=13170.42272901535
+epoch=6,training iter=330/668=49.4%,device=cuda,elapsed_time=13388.179460287094
+epoch=6,training iter=396/668=59.28%,device=cuda,elapsed_time=13605.877056598663
+epoch=6,training iter=462/668=69.16%,device=cuda,elapsed_time=13823.429082870483
+epoch=6,training iter=528/668=79.04%,device=cuda,elapsed_time=14040.656722784042
+epoch=6,training iter=594/668=88.92%,device=cuda,elapsed_time=14258.128815889359
+epoch=6,training iter=660/668=98.8%,device=cuda,elapsed_time=14475.505913734436
+epoch=6,validating iter=28/82=34.15%,device=cuda,elapsed_time=14591.996874570847
+epoch=6,validating iter=56/82=68.29%,device=cuda,elapsed_time=14675.113739728928
+End of epoch6,val_accuracy=0.8640459761386965,lr=0.001,train_accuracy=0.581512419674211,train_loss=163.9627130267149,val_loss:0.5680190397471916,val_acc_top5=0.9850306442942146,train_acc_top5=0.859108224821908,device=cuda,elapsed_time=14751.695358037949
+SEP14_y128y32y16_best saved after epoch6 with val_acc = 0.8640459761386965 and val_loss=0.5680190397471916
+epoch=7,training iter=66/668=9.88%,device=cuda,elapsed_time=14976.647861719131
+epoch=7,training iter=132/668=19.76%,device=cuda,elapsed_time=15193.92993092537
+epoch=7,training iter=198/668=29.64%,device=cuda,elapsed_time=15411.112197875977
+epoch=7,training iter=264/668=39.52%,device=cuda,elapsed_time=15628.247726678848
+epoch=7,training iter=330/668=49.4%,device=cuda,elapsed_time=15845.414101362228
+epoch=7,training iter=396/668=59.28%,device=cuda,elapsed_time=16062.852372646332
+epoch=7,training iter=462/668=69.16%,device=cuda,elapsed_time=16279.990317344666
+epoch=7,training iter=528/668=79.04%,device=cuda,elapsed_time=16497.514272212982
+epoch=7,training iter=594/668=88.92%,device=cuda,elapsed_time=16714.96584367752
+epoch=7,training iter=660/668=98.8%,device=cuda,elapsed_time=16933.13280892372
+epoch=7,validating iter=28/82=34.15%,device=cuda,elapsed_time=17049.452459573746
+epoch=7,validating iter=56/82=68.29%,device=cuda,elapsed_time=17132.378315210342
+End of epoch7,val_accuracy=0.8625692230899159,lr=0.001,train_accuracy=0.5664820681788965,train_loss=169.801927065421,val_loss:0.6356085368045946,val_acc_top5=0.9840779003917756,train_acc_top5=0.8435324259885403,device=cuda,elapsed_time=17209.000936985016
+SEP14_y128y32y16_relay saved after epoch7 with other model best_val_acc = 0.8640459761386965 and best_val_loss=0.5680190397471916
+epoch=8,training iter=66/668=9.88%,device=cuda,elapsed_time=17432.843959331512
+epoch=8,training iter=132/668=19.76%,device=cuda,elapsed_time=17649.826186656952
+epoch=8,training iter=198/668=29.64%,device=cuda,elapsed_time=17866.822812318802
+epoch=8,training iter=264/668=39.52%,device=cuda,elapsed_time=18084.105361938477
+epoch=8,training iter=330/668=49.4%,device=cuda,elapsed_time=18301.265976428986
+epoch=8,training iter=396/668=59.28%,device=cuda,elapsed_time=18518.11075782776
+epoch=8,training iter=462/668=69.16%,device=cuda,elapsed_time=18734.856594085693
+epoch=8,training iter=528/668=79.04%,device=cuda,elapsed_time=18951.548409223557
+epoch=8,training iter=594/668=88.92%,device=cuda,elapsed_time=19168.40144944191
+epoch=8,training iter=660/668=98.8%,device=cuda,elapsed_time=19385.816533327103
+epoch=8,validating iter=28/82=34.15%,device=cuda,elapsed_time=19502.033021211624
+epoch=8,validating iter=56/82=68.29%,device=cuda,elapsed_time=19585.0086081028
+End of epoch8,val_accuracy=0.8615575658112038,lr=0.001,train_accuracy=0.5794451640930004,train_loss=165.01867415805063,val_loss:0.6193891371168742,val_acc_top5=0.9844589979527512,train_acc_top5=0.8574452657185628,device=cuda,elapsed_time=19661.706249713898
+SEP14_y128y32y16_relay saved after epoch8 with other model best_val_acc = 0.8640459761386965 and best_val_loss=0.5680190397471916
+epoch=9,training iter=66/668=9.88%,device=cuda,elapsed_time=19886.85812354088
+epoch=9,training iter=132/668=19.76%,device=cuda,elapsed_time=20103.947364091873
+epoch=9,training iter=198/668=29.64%,device=cuda,elapsed_time=20321.33085489273
+epoch=9,training iter=264/668=39.52%,device=cuda,elapsed_time=20538.40751361847
+epoch=9,training iter=330/668=49.4%,device=cuda,elapsed_time=20755.877764940262
+epoch=9,training iter=396/668=59.28%,device=cuda,elapsed_time=20972.952971696854
+epoch=9,training iter=462/668=69.16%,device=cuda,elapsed_time=21190.30938577652
+epoch=9,training iter=528/668=79.04%,device=cuda,elapsed_time=21407.210007429123
+epoch=9,training iter=594/668=88.92%,device=cuda,elapsed_time=21624.312745332718
+epoch=9,training iter=660/668=98.8%,device=cuda,elapsed_time=21841.107177257538
+epoch=9,validating iter=28/82=34.15%,device=cuda,elapsed_time=21957.892795801163
+epoch=9,validating iter=56/82=68.29%,device=cuda,elapsed_time=22040.85204911232
+End of epoch9,val_accuracy=0.864225248738033,lr=0.001,train_accuracy=0.5545830483029702,train_loss=161.65814156589394,val_loss:0.6148257793449774,val_acc_top5=0.9849353699039707,train_acc_top5=0.8378285186093332,device=cuda,elapsed_time=22117.633048295975
+SEP14_y128y32y16_best saved after epoch9 with val_acc = 0.864225248738033 and val_loss=0.6148257793449774
+epoch=10,training iter=66/668=9.88%,device=cuda,elapsed_time=22342.04791879654
+epoch=10,training iter=132/668=19.76%,device=cuda,elapsed_time=22559.528918743134
+epoch=10,training iter=198/668=29.64%,device=cuda,elapsed_time=22776.27757501602
+epoch=10,training iter=264/668=39.52%,device=cuda,elapsed_time=22993.138768434525
+epoch=10,training iter=330/668=49.4%,device=cuda,elapsed_time=23210.169679880142
+epoch=10,training iter=396/668=59.28%,device=cuda,elapsed_time=23427.41843533516
+epoch=10,training iter=462/668=69.16%,device=cuda,elapsed_time=23644.47942519188
+epoch=10,training iter=528/668=79.04%,device=cuda,elapsed_time=23861.61145567894
+epoch=10,training iter=594/668=88.92%,device=cuda,elapsed_time=24078.55521130562
+epoch=10,training iter=660/668=98.8%,device=cuda,elapsed_time=24296.377131700516
+epoch=10,validating iter=28/82=34.15%,device=cuda,elapsed_time=24412.693418502808
+epoch=10,validating iter=56/82=68.29%,device=cuda,elapsed_time=24495.59730243683
+End of epoch10,val_accuracy=0.863224867640472,lr=0.001,train_accuracy=0.5442620954381492,train_loss=165.60233789646696,val_loss:0.5799711126743293,val_acc_top5=0.9849830070990927,train_acc_top5=0.8396822330554409,device=cuda,elapsed_time=24572.323531389236
+SEP14_y128y32y16_best saved after epoch10 with val_acc = 0.863224867640472 and val_loss=0.5799711126743293
