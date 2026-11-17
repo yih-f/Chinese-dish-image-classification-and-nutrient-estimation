@@ -1,0 +1,26 @@
+ README.md                                                   |  11 [32m+++++++++++[m
+ dish nutrient label.txt => data/dish nutrient label.txt     |   0
+ dish recipe.xlsx => data/dish recipe.xlsx                   | Bin
+ .../ingredient nutrient label.xlsx                          | Bin
+ {python scripts => models}/SEP12_swinb.py                   |   0
+ {python scripts => models}/SEP12_y0_4.py                    |   0
+ {python scripts => models}/SEP12_y0_8.py                    |   0
+ {python scripts => models}/SEP12_y128.py                    |   0
+ {python scripts => models}/SEP12_y16.py                     |   0
+ {python scripts => models}/SEP12_y1_6.py                    |   0
+ {python scripts => models}/SEP12_y32.py                     |   0
+ {python scripts => models}/SEP12_y3_2.py                    |   0
+ {python scripts => models}/SEP12_y8.py                      |   0
+ {python scripts => models}/SEP14_y128y32y16.py              |   0
+ outputs/.gitkeep                                            |   0
+ .../SEP12_swinb-1.txt                                       |   0
+ .../SEP12_y0_4-1.txt                                        |   0
+ .../SEP12_y0_8-1.txt                                        |   0
+ .../SEP12_y128-3.txt                                        |   0
+ .../SEP12_y16-1.txt                                         |   0
+ .../SEP12_y1_6-1.txt                                        |   0
+ .../SEP12_y32-1.txt                                         |   0
+ .../SEP12_y3_2-1.txt                                        |   0
+ .../SEP12_y8-1.txt                                          |   0
+ .../SEP14_y128y32y16.txt                                    |   0
+ 25 files changed, 11 insertions(+)
